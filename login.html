@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Creating Comfortable Corner<br>ESTATEHUB.com</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html"><i class="fa fa-sign-in-alt"></i> Login</a></li>
+                <li><a href="signup.html"><i class="fa fa-user-plus"></i> Sign Up</a></li>
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="listings.html"><i class="fa fa-list"></i> Listings</a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login-form">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="error-message" style="color: red;"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; ESTATEHUB.com</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
